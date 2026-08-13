@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hundun Robotics — The Ship for Ten Thousand</title>
+  <meta name="description" content="Hundun Robotics builds self-replicating robotic systems that construct and maintain a generation starship for 10,000 human lives." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">
+        <span class="logo-mark">混</span>
+        <span class="logo-text">Hundun Robotics</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#mission">Mission</a>
+        <a href="#swarm">Swarm</a>
+        <a href="#ship">The Ship</a>
+        <a href="#path">Path</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" id="navToggle">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-glow"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Self-replicating systems · Deep space architecture</p>
+      <h1>
+        A ship for<br />
+        <em>ten thousand</em> lives
+      </h1>
+      <p class="hero-lead">
+        We do not send people to build the future.<br />
+        We send robots that build the robots that build the ship.
+      </p>
+      <div class="hero-actions">
+        <a href="#mission" class="btn btn-primary">Explore the mission</a>
+        <a href="#ship" class="btn btn-ghost">See the vessel</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orbit orbit-1"></div>
+      <div class="orbit orbit-2"></div>
+      <div class="orbit orbit-3"></div>
+      <div class="core-sphere">
+        <div class="core-inner"></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="section mission" id="mission">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>The mission</h2>
+      </div>
+      <div class="mission-grid">
+        <div class="mission-text">
+          <p class="lead">
+            Hundun Robotics exists for one purpose: to construct a fully autonomous
+            generation vessel capable of sustaining ten thousand human beings
+            across interstellar distances.
+          </p>
+          <p>
+            The ship will not be assembled by human hands in orbit.
+            It will be grown by successive generations of machines —
+            each generation building the next with greater precision,
+            until the habitat itself becomes a living industrial ecology.
+          </p>
+          <p>
+            Maintenance, expansion, and repair will remain the domain of robots.
+            Humans will inhabit. Machines will sustain.
+          </p>
+        </div>
+        <div class="mission-cards">
+          <article class="m-card">
+            <div class="m-card-icon">◉</div>
+            <h3>10,000 souls</h3>
+            <p>Closed-loop life support, radiation shielding, and multi-generational habitats designed as a complete world.</p>
+          </article>
+          <article class="m-card">
+            <div class="m-card-icon">◈</div>
+            <h3>Zero human construction</h3>
+            <p>From the first seed factory to the final habitat module — built and maintained exclusively by robotic systems.</p>
+          </article>
+          <article class="m-card">
+            <div class="m-card-icon">◎</div>
+            <h3>Self-replicating industry</h3>
+            <p>Robots that manufacture robots. Factories that expand themselves. An industrial base that compounds without Earth resupply.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section swarm" id="swarm">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>The swarm</h2>
+        <p class="section-sub">Robots that build robots</p>
+      </div>
+      <div class="swarm-showcase">
+        <div class="swarm-visual">
+          <div class="factory-node node-seed"><span>Seed</span></div>
+          <div class="factory-line"></div>
+          <div class="factory-node node-gen1"><span>Gen-1</span></div>
+          <div class="factory-line"></div>
+          <div class="factory-node node-gen2"><span>Gen-2</span></div>
+          <div class="factory-line"></div>
+          <div class="factory-node node-ship"><span>Ship</span></div>
+        </div>
+        <div class="swarm-content">
+          <h3>Recursive manufacturing</h3>
+          <p>
+            Our core technology is not a single robot. It is a closed industrial loop:
+            extraction, refining, fabrication, assembly, and replication — all performed
+            by machines that can produce improved versions of themselves.
+          </p>
+          <ul class="swarm-list">
+            <li><strong>Seed units</strong> Compact, high-capability founders delivered from Earth. They bootstrap the first factory.</li>
+            <li><strong>Generation cascades</strong> Each generation increases in number, specialization, and manufacturing resolution.</li>
+            <li><strong>Autonomous maintenance</strong> Damage, wear, and expansion are handled by the swarm without human presence on site.</li>
+            <li><strong>Human-safe zones</strong> Once the habitat is sealed, the industrial layers remain isolated. People live; machines work.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section ship" id="ship">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2>The vessel</h2>
+        <p class="section-sub">Architecture for a permanent human presence beyond Earth</p>
+      </div>
+      <div class="ship-stage">
+        <div class="ship-silhouette" aria-hidden="true">
+          <div class="ship-body">
+            <div class="ship-ring ring-a"></div>
+            <div class="ship-ring ring-b"></div>
+            <div class="ship-ring ring-c"></div>
+            <div class="ship-spine"></div>
+            <div class="ship-hub"></div>
+          </div>
+        </div>
+        <div class="ship-stats">
+          <div class="stat"><span class="stat-value">10,000</span><span class="stat-label">Permanent residents</span></div>
+          <div class="stat"><span class="stat-value">100%</span><span class="stat-label">Robot-built structure</span></div>
+          <div class="stat"><span class="stat-value">∞</span><span class="stat-label">Self-sustaining cycles</span></div>
+          <div class="stat"><span class="stat-value">0</span><span class="stat-label">Human construction crew</span></div>
+        </div>
+      </div>
+      <div class="ship-features">
+        <article class="feature">
+          <h4>Habitat strata</h4>
+          <p>Layered living districts with artificial gravity sections, agriculture rings, and radiation-buffered cores. Designed as a complete ecology, not a temporary capsule.</p>
+        </article>
+        <article class="feature">
+          <h4>Industrial exterior</h4>
+          <p>The outer shell remains a working factory. Mining, refining, and replication continue for decades after the first humans arrive — expanding and repairing without risk to the population.</p>
+        </article>
+        <article class="feature">
+          <h4>Closed-loop life</h4>
+          <p>Air, water, biomass, and energy are managed by dedicated robotic systems. Human oversight is possible; human labor is not required.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section path" id="path">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2>The path</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <span class="tl-phase">Phase 0</span>
+            <h3>Earth factories</h3>
+            <p>Develop and prove recursive manufacturing on Earth. Seed units, replication protocols, quality gates.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <span class="tl-phase">Phase 1</span>
+            <h3>Orbital bootstrap</h3>
+            <p>Deploy seed factories in cislunar space. Begin autonomous expansion using local and delivered materials.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <span class="tl-phase">Phase 2</span>
+            <h3>Ship growth</h3>
+            <p>The vessel takes form. Habitat modules, shielding, propulsion architecture — all machine-assembled.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-content">
+            <span class="tl-phase">Phase 3</span>
+            <h3>Human embarkation</h3>
+            <p>Ten thousand lives enter a ship that has never required a human welder. The journey begins.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section philosophy">
+    <div class="container">
+      <blockquote>
+        <p>“Hundun does not claim progress.<br />It only records what survived external contact.”</p>
+        <cite>— Founding principle</cite>
+      </blockquote>
+      <p class="phil-text">
+        We do not promise that machines will make humanity better.
+        We build systems that can operate where humans cannot yet live —
+        and leave the meaning of the voyage to those who travel.
+      </p>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">05</span>
+        <h2>Begin</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-text">
+          <p class="lead">
+            Hundun Robotics is building the industrial substrate
+            for a permanent human presence beyond Earth.
+          </p>
+          <p>Partnerships, research collaboration, and long-horizon capital inquiries are welcome.</p>
+          <div class="contact-details">
+            <a href="mailto:contact@hundun.robotics">contact@hundun.robotics</a>
+            <span>Earth · Cislunar · Beyond</span>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@domain.com" />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="How do you want to take part?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send transmission</button>
+          <p class="form-note" id="formNote" hidden>Transmission received. We will respond.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">混</span>
+        <span>Hundun Robotics</span>
+      </div>
+      <p class="footer-tag">Robots that build robots. A ship for ten thousand.</p>
+      <p class="footer-copy">© 2026 Hundun Robotics. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
