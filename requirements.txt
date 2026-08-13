@@ -1,0 +1,4 @@
+# Hundun Agent — pure Python 3.10+
+# Optional LLM backends
+# openai>=1.0
+# anthropic
